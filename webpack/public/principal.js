@@ -113,7 +113,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pessoa__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\");\n/* harmony import */ var _modulos_modulaA__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modulos/modulaA */ \"./src/modulos/modulaA.js\");\n/* harmony import */ var _modulos_modulaA__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modulos_modulaA__WEBPACK_IMPORTED_MODULE_1__);\n \n \n\nconst atendente = new _pessoa__WEBPACK_IMPORTED_MODULE_0__[\"default\"] \nconsole.log(atendente.cumprimentar())\n\n//# sourceURL=webpack:///./src/principal.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pessoa__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\");\n \n \nconst atendente = new _pessoa__WEBPACK_IMPORTED_MODULE_0__[\"default\"] \nconsole.log(atendente.cumprimentar())\n\n//# sourceURL=webpack:///./src/principal.js?");
 
 /***/ })
 
