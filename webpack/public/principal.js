@@ -82,6 +82,29 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 
 /***/ }),
 
+/***/ "./src/assests/index.js":
+/*!******************************!*\
+  !*** ./src/assests/index.js ***!
+  \******************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_estilo_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/estilo.css */ \"./src/assests/css/estilo.css\");\n/* harmony import */ var _css_estilo_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_estilo_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/index.scss */ \"./src/assests/scss/index.scss\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n//# sourceURL=webpack:///./src/assests/index.js?");
+
+/***/ }),
+
+/***/ "./src/assests/scss/index.scss":
+/*!*************************************!*\
+  !*** ./src/assests/scss/index.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module parse failed: Unexpected token (1:17)\\nYou may need an appropriate loader to handle this file type.\\n| $cor-botao-padrao:#fff;\\n| $cor-bg-botao-padrao:#19B3E6;\\n| \");\n\n//# sourceURL=webpack:///./src/assests/scss/index.scss?");
+
+/***/ }),
+
 /***/ "./src/modulos/modulaA.js":
 /*!********************************!*\
   !*** ./src/modulos/modulaA.js ***!
@@ -124,7 +147,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pessoa__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\");\n/* harmony import */ var _assests_css_estilo_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assests/css/estilo.css */ \"./src/assests/css/estilo.css\");\n/* harmony import */ var _assests_css_estilo_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assests_css_estilo_css__WEBPACK_IMPORTED_MODULE_1__);\n \n \n \nconst atendente = new _pessoa__WEBPACK_IMPORTED_MODULE_0__[\"default\"] \nconsole.log(atendente.cumprimentar())\n\n//# sourceURL=webpack:///./src/principal.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pessoa__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\");\n/* harmony import */ var _assests__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assests */ \"./src/assests/index.js\");\n \n \n \nconst atendente = new _pessoa__WEBPACK_IMPORTED_MODULE_0__[\"default\"] \nconsole.log(atendente.cumprimentar())\n\n//# sourceURL=webpack:///./src/principal.js?");
 
 /***/ })
 

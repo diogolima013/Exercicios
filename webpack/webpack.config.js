@@ -1,12 +1,26 @@
+const modoDev = process.env.NODE_ENV !== 'production'
 const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const OptimizeCSSAssestsPlugin = require('optimize-css-assets-webpack-plugin')
+const { TRUE } = require('node-sass')
+
 
 module.exports = {
-    mode: 'development',
+    mode: modoDev ? 'development' : 'production',
     entry:'./src/principal.js',
     output: {
         filename: 'principal.js',
         path: __dirname + '/public'
+    },
+    optimization: {
+        minimizer: [
+            new UglifyJsPlugin({
+                cache: true,
+                parallel: true
+            }),
+            new OptimizeCSSAssestsPlugin({})
+        ]
     },
     plugins: [
         new MiniCssExtractPlugin({
@@ -22,6 +36,9 @@ module.exports = {
                 'css-loader', // interpreta @import,url()...
                 'sass-loader',
             ]
+        }, {
+            test: /\.(jpeg|png|svg|gif)$/,
+            use:['file-loader']
         }]
     }
 }
